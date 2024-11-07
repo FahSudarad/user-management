@@ -65,7 +65,7 @@ const AuthForm: React.FC<AuthFormProps> = ({ title, buttonText, isLogin }) => {
     <div className="flex flex-col md:flex-row min-h-screen items-center justify-center bg-gray-100 p-4">
       <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden w-full max-w-md md:max-w-4xl">
         <div className="flex-1 p-8 md:p-12">
-          <h1 className="text-2xl font-bold text-orange-500 mb-6 text-center md:text-left">Logo Here</h1>
+          <h1 className="text-2xl font-bold text-orange-500 mb-6 text-center md:text-left">My Company</h1>
           <h3 className="text-3xl font-bold mb-6 text-center md:text-left text-black">{title}</h3>
 
           <form onSubmit={handleSubmit} className="space-y-4">
