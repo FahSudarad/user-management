@@ -118,7 +118,7 @@ const AuthForm: React.FC<AuthFormProps> = ({ title, buttonText, isLogin }) => {
             ) : (
               <p>
                 Already have an account?{' '}
-                <a href="/auth/login" className="text-orange-500 hover:underline">
+                <a href="/login" className="text-orange-500 hover:underline">
                   Sign in
                 </a>
               </p>
